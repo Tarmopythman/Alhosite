@@ -24,25 +24,13 @@ p {
     line-height: 1.5;
 }
 
-a:link {
+a {
     color: blue;
-    background-color: transparent;
 }
 
-a:visited {
-    color: purple;
-    background-color: transparent;
-}
-
-a:focus {
-    color: #fff;
-    background-color: #000;
-    outline: 0;
-}
-
-a:active {
-    color: red;
-    background-color: transparent;
+a:hover {
+    color: lightseagreen;
+    text-decoration: underline;
 }
 
 .container {
@@ -52,12 +40,21 @@ a:active {
 }
 
 .header-primary {
-    background: #ccc;
+    background: #176B87;
+    color: white;
+    text-decoration: solid;
     padding: 20px;
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
 }
 
 .navigation-primary {
     background-color: #666;
+    position: sticky;
+    top: 0px;
 }
 
 .navigation-primary ul {
@@ -108,10 +105,18 @@ a:active {
 
 .navigation-secondary {
     margin-bottom: 2em;
+    background-color: #86B6F6;
+    position: sticky;
+    top: 50px;
 }
 
 .content-main {
     margin-bottom: 2em;
+}
+
+.content-aside {
+    position: sticky;
+    top: 50px;
 }
 
 .content-aside h3,
