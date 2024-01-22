@@ -24,12 +24,36 @@ p {
     line-height: 1.5;
 }
 
+.law h3 {
+    margin-left: 10 px;
+    border-left-width: 10px;
+    border-left-style: solid;
+    border-left-color: #84A7A1;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.law p {
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.law h2 {
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.law h1 {
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
 a {
     color: blue;
 }
 
 a:hover {
-    color: #176B87;
+    color: #2E8A99;
     text-decoration: underline;
 }
 
@@ -40,7 +64,7 @@ a:hover {
 }
 
 .header-primary {
-    background: #176B87;
+    background: #2E8A99;
     color: white;
     text-decoration: solid;
     padding: 20px;
@@ -90,12 +114,13 @@ a:hover {
     background: red;
 }
 
+/*
 .navigation-secondary ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
 }
-
+*/
 .content-container {
     padding: 2em;
     background: #fff;
@@ -103,20 +128,43 @@ a:hover {
     display: inline-block;
 }
 
+/*
 .navigation-secondary {
     margin-bottom: 2em;
     background-color: white;
     position: sticky;
     top: 50px;
 }
+*/
 
 .content-main {
     margin-bottom: 2em;
 }
 
 .content-aside {
+    background-color: aliceblue;
     position: sticky;
     top: 50px;
+    max-height: calc(100vh - 50px);
+    /* Adjust the max-height as needed */
+    overflow-y: auto;
+    padding: 10px;
+
+    a {
+        text-decoration: none;
+        color: #0E2954;
+    }
+
+    a:hover {
+        color: #1F6E8C;
+        text-decoration: underline;
+    }
+}
+
+/* Add the following styles to keep the Table of Contents within the container */
+.content-aside h3,
+.navigation-secondary h3 {
+    margin-top: 0;
 }
 
 .content-aside h3,
@@ -131,22 +179,25 @@ a:hover {
 }
 
 @media screen and (min-width: 800px) {
+
+    /*
     .navigation-secondary {
         float: left;
         width: 15%;
         min-width: 10em;
         margin-right: 5%;
     }
-
+*/
     .content-main {
         float: left;
         min-width: 40em;
-        width: 60%;
+        width: 70%;
     }
 
     .content-aside {
+        background-color: aliceblue;
         float: right;
         min-width: 10em;
-        width: 15%;
+        width: 25%;
     }
 }
