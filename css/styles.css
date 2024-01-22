@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #efefef;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    line-height: 1.2;
+}
+
+h1 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 1.8em;
+    line-height: 1;
+}
+
+h2 {
+    margin: 0 0 1em;
+}
+
+p {
+    margin: 1em 0 1.5em;
+    line-height: 1.5;
+}
+
+a:link {
+    color: blue;
+    background-color: transparent;
+}
+
+a:visited {
+    color: purple;
+    background-color: transparent;
+}
+
+a:focus {
+    color: #fff;
+    background-color: #000;
+    outline: 0;
+}
+
+a:active {
+    color: red;
+    background-color: transparent;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 70em;
+    background: #fff;
+}
+
+.header-primary {
+    background: #ccc;
+    padding: 20px;
+}
+
+.navigation-primary {
+    background-color: #666;
+}
+
+.navigation-primary ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.navigation-primary li {
+    display: inline;
+}
+
+.navigation-primary a {
+    float: left;
+    padding: .5em 1em;
+    color: #fff;
+    background: #666;
+    text-decoration: none;
+    border-right: 1px solid #fff;
+}
+
+.navigation-primary a:hover {
+    background: green;
+}
+
+.navigation-primary a:focus {
+    background: #000;
+    outline: none;
+}
+
+.navigation-primary a:active {
+    background: red;
+}
+
+.navigation-secondary ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.content-container {
+    padding: 2em;
+    background: #fff;
+    min-height: 0;
+    display: inline-block;
+}
+
+.navigation-secondary {
+    margin-bottom: 2em;
+}
+
+.content-main {
+    margin-bottom: 2em;
+}
+
+.content-aside h3,
+.navigation-secondary h3 {
+    margin-top: 0;
+}
+
+.footer-primary {
+    background-color: #666;
+    color: #fff;
+    padding: 20px;
+}
+
+@media screen and (min-width: 800px) {
+    .navigation-secondary {
+        float: left;
+        width: 20%;
+        margin-right: 5%;
+    }
+
+    .content-main {
+        float: left;
+        width: 50%;
+    }
+
+    .content-aside {
+        float: right;
+        width: 20%;
+    }
+}
