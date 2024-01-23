@@ -57,6 +57,13 @@ a:hover {
     text-decoration: underline;
 }
 
+input {
+    line-height: 1em;
+    font-size: 1em;
+    top: 10px;
+    margin: 5px;
+}
+
 .container {
     margin: 0 auto;
     max-width: 70em;
