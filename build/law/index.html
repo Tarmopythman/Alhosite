@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lexwest</title>
     <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/navbar.js" defer></script>
+    <script src="/js/toc.js"></script>
+    <script src="/js/toc-script.js" defer></script>
 </head>
 
 <body>
@@ -14,23 +17,10 @@
             <h1><a href="/index.html">Lexwest</a></h1>
         </header>
         <nav class="navigation-primary" aria-label="Primary">
-            <ul>
-                <li><a href="/build/gov/index.html">Hallituksen asiakirjat</a></li>
-                <li><a href="/build/law/index.html">Lainsäädäntö</a></li>
-                <li><a href="/build/par/index.html">Eduskunnan asiakirjat</a></li>
-                <li><a href="/build/new/index.html">Uutiset ja tiedotteet</a></li>
-                <li><a href="/build/doc/index.html">Asiakirjaindeksi</a></li>
-            </ul>
+            <div id="navbar-placeholder"></div>
+
         </nav>
         <div class="content-container">
-            <nav class="navigation-secondary" aria-label="Section">
-                <h3>Navigointi</h3>
-                <ul>
-                    <li>Asiakirjaindeksi</li>
-                    <li>Politiikka</li>
-                    <li>Nopeat linkit</li>
-                </ul>
-            </nav>
             <main class="content-main">
                 <h2>Lainsäädäntö</h2>
                 <p>Julkaistu ajantasainen lainsäädäntö. Ei sisällä lakien esitöitä tai hallituksen asetuksia. Kaikki asiakirjat kokonaisuudessaan löytää <a href="/build/doc/index.html">asiakirjaindeksistä.</a></p>
@@ -40,12 +30,12 @@
                 <p></p>
             </main>
             <aside class="content-aside">
-                <h3>Sisällysluettelo</h3>
-                <p>Joitai javascriptiä tähän...</p>
+                <div id="toc-placeholder"></div>
+
             </aside>
         </div>
         <footer class="footer-primary">
-            Copyright &copy; Lexwest, 2024
+            Copyright &copy; Lexwest, 2024, <a href="https://codeberg.org/Nicodemus/pages">source code</a>
         </footer>
     </div>
 </body>
