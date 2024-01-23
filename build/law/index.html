@@ -9,6 +9,7 @@
     <script src="/js/navbar.js" defer></script>
     <script src="/js/toc.js"></script>
     <script src="/js/toc-script.js" defer></script>
+    <script src="/js/pageInfoLaws.js" defer></script>
 </head>
 
 <body>
@@ -24,10 +25,9 @@
             <main class="content-main">
                 <h2>Lainsäädäntö</h2>
                 <p>Julkaistu ajantasainen lainsäädäntö. Ei sisällä lakien esitöitä tai hallituksen asetuksia. Kaikki asiakirjat kokonaisuudessaan löytää <a href="/build/doc/index.html">asiakirjaindeksistä.</a></p>
-                <ul>
-                    <li><a href="/build/law/002-1989-eduskuntalaki/index.html">002-1989-eduskuntalaki</a></li>
-                </ul>
-                <p></p>
+                <div id="pageListContainer">
+                    <ul id="pageList"></ul>
+                </div>
             </main>
             <aside class="content-aside">
                 <div id="toc-placeholder"></div>

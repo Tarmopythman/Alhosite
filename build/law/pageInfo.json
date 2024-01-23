@@ -1,0 +1,39 @@
+{
+  "pages": [
+    {
+      "title": "Vaalilaki (693-1995)",
+      "parentFolder": "693-1995",
+      "folderPath": "693-1995/"
+    },
+    {
+      "title": "Hallituslaki (802-1999)",
+      "parentFolder": "802-1999",
+      "folderPath": "802-1999/"
+    },
+    {
+      "title": "Perintölaki (020-1988)",
+      "parentFolder": "020-1988",
+      "folderPath": "020-1988/"
+    },
+    {
+      "title": "Verolaki (520-2004)",
+      "parentFolder": "520-2004",
+      "folderPath": "520-2004/"
+    },
+    {
+      "title": "Eduskuntalaki (002-1989)",
+      "parentFolder": "002-1989",
+      "folderPath": "002-1989/"
+    },
+    {
+      "title": "Aluelaki (050-1988)",
+      "parentFolder": "050-1988",
+      "folderPath": "050-1988/"
+    },
+    {
+      "title": "Perustuslaki (017-1988)",
+      "parentFolder": "017-1988",
+      "folderPath": "017-1988/"
+    }
+  ]
+}
