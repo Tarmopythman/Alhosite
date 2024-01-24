@@ -1,0 +1,196 @@
+WordGrinder dumpfile v3: this is a text file; diff me!
+.addons.autosave.enabled: false
+.addons.autosave.pattern: "%F.autosave.%T.wg"
+.addons.autosave.period: 10
+.addons.htmlexport.bold_off: "</b>"
+.addons.htmlexport.bold_on: "<b>"
+.addons.htmlexport.italic_off: "</i>"
+.addons.htmlexport.italic_on: "<i>"
+.addons.htmlexport.underline_off: "</u>"
+.addons.htmlexport.underline_on: "<u>"
+.addons.pagecount.enabled: false
+.addons.pagecount.wordsperpage: 250
+.addons.scrapbook.document: "Scrapbook"
+.addons.scrapbook.pattern: "Item from '%N' at %T:"
+.addons.scrapbook.timestamp: true
+.addons.smartquotes.doublequotes: false
+.addons.smartquotes.leftdouble: "“"
+.addons.smartquotes.leftsingle: "‘"
+.addons.smartquotes.notinraw: true
+.addons.smartquotes.rightdouble: "”"
+.addons.smartquotes.rightsingle: "’"
+.addons.smartquotes.singlequotes: false
+.addons.spellchecker.enabled: false
+.addons.spellchecker.usesystemdictionary: true
+.addons.spellchecker.useuserdictionary: true
+.documents.1.co: 2
+.documents.1.cp: 55
+.documents.1.cw: 2
+.documents.1.margin: 0
+.documents.1.name: "main"
+.documents.1.viewmode: 1
+.documents.1.wordcount: 600
+.fileformat: 8.0
+.menu.accelerators.BACKSPACE: "ZDPC"
+.menu.accelerators.DELETE: "ZDNC"
+.menu.accelerators.DOWN: "ZD"
+.menu.accelerators.EC: "^C"
+.menu.accelerators.ECadd: "^M"
+.menu.accelerators.ECfind: "^L"
+.menu.accelerators.EF: "^F"
+.menu.accelerators.EG: "^G"
+.menu.accelerators.EN: "^K"
+.menu.accelerators.END: "ZE"
+.menu.accelerators.EP: "^V"
+.menu.accelerators.ER: "^R"
+.menu.accelerators.ET: "^X"
+.menu.accelerators.Eredo: "^Y"
+.menu.accelerators.Eundo: "^Z"
+.menu.accelerators.FQ: "^Q"
+.menu.accelerators.FS: "^S"
+.menu.accelerators.HOME: "ZH"
+.menu.accelerators.LEFT: "ZL"
+.menu.accelerators.PGDN: "ZPGDN"
+.menu.accelerators.PGUP: "ZPGUP"
+.menu.accelerators.RIGHT: "ZR"
+.menu.accelerators.SB: "^B"
+.menu.accelerators.SDOWN: "ZSD"
+.menu.accelerators.SEND: "ZSE"
+.menu.accelerators.SHOME: "ZSH"
+.menu.accelerators.SI: "^I"
+.menu.accelerators.SLEFT: "ZSL"
+.menu.accelerators.SO: "^O"
+.menu.accelerators.SP: "^P"
+.menu.accelerators.SPGDN: "ZSPGDN"
+.menu.accelerators.SPGUP: "ZSPGUP"
+.menu.accelerators.SRIGHT: "ZSR"
+.menu.accelerators.SU: "^U"
+.menu.accelerators.SUP: "ZSU"
+.menu.accelerators.S^DOWN: "ZSNP"
+.menu.accelerators.S^LEFT: "ZSWL"
+.menu.accelerators.S^PGDN: "ZSED"
+.menu.accelerators.S^PGUP: "ZSBD"
+.menu.accelerators.S^RIGHT: "ZSWR"
+.menu.accelerators.S^UP: "ZSPP"
+.menu.accelerators.UP: "ZU"
+.menu.accelerators.ZBD: "^PGUP"
+.menu.accelerators.ZD: "DOWN"
+.menu.accelerators.ZDNC: "DELETE"
+.menu.accelerators.ZDPC: "BACKSPACE"
+.menu.accelerators.ZDW: "^E"
+.menu.accelerators.ZE: "END"
+.menu.accelerators.ZED: "^PGDN"
+.menu.accelerators.ZH: "HOME"
+.menu.accelerators.ZL: "LEFT"
+.menu.accelerators.ZM: "^@"
+.menu.accelerators.ZNP: "^DOWN"
+.menu.accelerators.ZPGDN: "PGDN"
+.menu.accelerators.ZPGUP: "PGUP"
+.menu.accelerators.ZPP: "^UP"
+.menu.accelerators.ZR: "RIGHT"
+.menu.accelerators.ZSBD: "S^PGUP"
+.menu.accelerators.ZSD: "SDOWN"
+.menu.accelerators.ZSE: "SEND"
+.menu.accelerators.ZSED: "S^PGDN"
+.menu.accelerators.ZSH: "SHOME"
+.menu.accelerators.ZSL: "SLEFT"
+.menu.accelerators.ZSNP: "S^DOWN"
+.menu.accelerators.ZSPGDN: "SPGDN"
+.menu.accelerators.ZSPGUP: "SPGUP"
+.menu.accelerators.ZSPP: "S^UP"
+.menu.accelerators.ZSR: "SRIGHT"
+.menu.accelerators.ZSU: "SUP"
+.menu.accelerators.ZSW: "^W"
+.menu.accelerators.ZSWL: "S^LEFT"
+.menu.accelerators.ZSWR: "S^RIGHT"
+.menu.accelerators.ZU: "UP"
+.menu.accelerators.ZWL: "^LEFT"
+.menu.accelerators.ZWR: "^RIGHT"
+.menu.accelerators.^@: "ZM"
+.menu.accelerators.^B: "SB"
+.menu.accelerators.^C: "EC"
+.menu.accelerators.^DOWN: "ZNP"
+.menu.accelerators.^E: "ZDW"
+.menu.accelerators.^F: "EF"
+.menu.accelerators.^G: "EG"
+.menu.accelerators.^I: "SI"
+.menu.accelerators.^K: "EN"
+.menu.accelerators.^L: "ECfind"
+.menu.accelerators.^LEFT: "ZWL"
+.menu.accelerators.^M: "ECadd"
+.menu.accelerators.^O: "SO"
+.menu.accelerators.^P: "SP"
+.menu.accelerators.^PGDN: "ZED"
+.menu.accelerators.^PGUP: "ZBD"
+.menu.accelerators.^Q: "FQ"
+.menu.accelerators.^R: "ER"
+.menu.accelerators.^RIGHT: "ZWR"
+.menu.accelerators.^S: "FS"
+.menu.accelerators.^U: "SU"
+.menu.accelerators.^UP: "ZPP"
+.menu.accelerators.^V: "EP"
+.menu.accelerators.^W: "ZSW"
+.menu.accelerators.^X: "ET"
+.menu.accelerators.^Y: "Eredo"
+.menu.accelerators.^Z: "Eundo"
+.name: "/home/virkailija/pages/source/law/495-1977-työehtosopimuslaki"
+.statusbar: true
+.current: 1
+#1
+H1 Työehtosopimuslaki
+P 1.8.1977
+P 495-1977
+H2 Työmarkkinajärjestöt
+H3 1 § - Työntekijöiden järjestäytyminen
+P Työntekijöiden tulee voida vapaasti järjestäytyä työntekijä- ja ammattiliittoihin. Työntekijöiden tulee voida käyttää järjestäytymisensä kautta sellaisia keinoja, jotka muutoin yleisesti paheksuttaviksi katsottaisiin.
+P Työntekijöitä tulee edustaa vain yksi valtakunnallinen keskusliitto. Keskusliitto käyttää yksipuolisesti ja itsenäisesti oikeutta edustaa työntekijöitä sellaisissa työehtosopimusasioissa, jotka kuuluvat sen valtakunnalliseen tehtävänkuvaan.
+H3 2 § - Työnantajien järjestäytyminen
+P Työnantajien tulee voida vapaasti järjestäytyä työnantaja- ja elinkeinoliittoihin. Työnantajien tulee pidättäytyä sellaisista työtaistelutoimista, jotka uhkaavat työntekijöiden lainsäädännöllisiä ja työehtosopimuksellisia oikeuksia.
+P Työantajia voivat edustaa erinäiset järjestöt, joiden tehtävänkuvaan kuuluu valtakunnallinen asioiden hoito. Työnantajat voivat halutessaan sopia työntekijöiden keskusliittoa vastaavan järjestön perustamisesta ja sen vastaavan yksipuolisuuden ja itsenäisen toimivallan vahvistamisesta lainsäätäjien kanssa.
+H3 3 § - Poikkeukset yhdistyslaista
+P Yhdistyslaista poiketen työntekijä- ja työnantajajärjestöjen tulee voida itsenäisesti päättää jäsentensä valinnasta ja hyväksymisestä.
+H2 Työehtosopimus
+H3 4 § - Työehtosopimuksesta neuvotteleminen
+P Työehtosopimuksesta neuvotellaan siihen oikeutettujen järjestöjen toimesta. Työantaja- ja työntekijäliittojen tulee katsoa olevan tasavertaisia oikeudellisilta ja poliittisilta voimasuhteiltaan sopimusta neuvotellessa.
+P Työehtosopimus on voimassa siinä säädetyn ajan mukaisesti, ei kuitenkaan yli neljää vuotta. Sopimus ja siihen liittyvät velvollisuudet raukeavat sen päätyttyä.
+P Työehtosopimuksesta neuvotelleen työmarkkinajärjestön kattojärjestö voi määrätä järjestön aloittamaan uudet neuvottelut, jos uutta sopimusta päättyvän tilalle ei ole tehty viimeistään puolta vuotta ennen päättymisajankohtaa.
+P Työehtosopimus on sen osapuolia sitova, eikä sen voimassaoloaikana tule ryhtyä työtaistelutoimenpiteisiin kummankaan osapuolen toimesta. Työtaistelutoimenpiteillä tarkoitetaan esimerkiksi lakkoa tai tietyistä työtehtävistä kieltäytymistä työntekijöiden toimesta.
+H3 5 § - Työehtosopimuksen sisältö
+P Työehtosopimuksessa voidaan säätää pakottavaa työlainsäädäntöä paremmista tai täydentävistä työehdoista. Laajempaa työehtosopimusta suppeamman sopimuksen on mukauduttava laajemmassa sopimuksessa sovittuihin ehtoihin.
+P Työehtosopimuksissa voidaan säätää työn turvallisuutta, oikeuksia ja työntekijöiden etuja valvovista valtuutetuista työntekijöistä, joiden kohdalla voidaan tehdä poikkeuksia työlainsäädännön irtisanomisaikaa, irtisanomiskorvauksia ja ylimääräisiä etuja koskien.
+H3 6 § - Työehtosopimusten hierarkia
+P Työehtosopimukset ovat alisteisia työlainsäädännölle, koskien seuraavia säädöksiä:
+LB Työsopimuslaki (xxx-yyyy)
+LB Työrauhalaki (xxx-yyyy)
+LB Työaikalaki (xxx-yyyy);
+P sekä tätä lakia.
+P Yleisistä työehtosopimuksista valtakunnallinen yleinen työehtosopimus on velvoittavin, jonka jälkeen tulevat alakohtaiset valtakunnalliset työehtosopimukset, jotka ovat edelleen velvoittavampia kuin työantaja- ja liittokohtaiset työehtosopimukset.
+P Keskushallinnon virkaehtosopimus ei ole oikeudellisessa velvoittavassa suhteessa valtakunnalliseen yleiseen työehtosopimukseen, mutta se on alisteinen työlainsäädännölle §:n mukaisesti.
+H3 7 § - Paikallinen sopiminen
+P Paikallisella sopimisella tarkoitetaan työsopimuskohtaisia poikkeuksia ehtoihin. Paikallisella sopimisella voidaan sopia vain työsopimusta velvoittavia työehtosopimuksia paremmista ehdoista.
+H3 8 § - Virkaehtosopimus
+P Virkaehtosopimus on oikeudellisesti työehtosopimukseen rinnasteinen, mutta muutoin erillinen sopimus, jossa sovitaan julkisyhteisöjen virkojen työehdoista julkisyhteisön ja työntekijäliiton välillä.
+H3 9 § - Virkaehtosopimuksen poikkeukset
+P Viroissa toimivien viranhaltijoiden työntekijäliitot eivät saa ryhtyä työtaistelutoimenpiteisiin lakon muodossa, jos virka on ollut keskushallinnon virkaehtosopimuksen piirissä edeltävän vuoden aikana.
+H2 Yleiset työehtosopimukset
+H3 10 § - Yleissitovuus
+P Yleisiä työehtosopimuksia on pidettävä kaikkia työntekijöitä ja työnantajia sitovina järjestäytymisestä riippumatta. Tästä voidaan käyttää nimitystä yleissitovuus.
+H3 11 § - Valtakunnallinen yleinen työehtosopimus
+P Valtakunnallisesta yleisestä työehtosopimuksesta (lyhennettynä VYTES) sopivat työntekijöiden valtakunnallinen keskusliitto ja työnantajien vastaavat ylimmät valtakunnalliset järjetötoimijat.
+P VYTES:ssä määritellään valtakunnallinen vähimmäispalkka, vähimmäispalkan vuosikorotukset, vähimmäisvuosilomat ja sairauspäivärahat.
+P VYTES laaditaan aina neljäksi vuodeksi kerrallaan.
+H3 12 § - Alakohtaiset valtakunnalliset työehtosopimukset
+P Alakohtaisista valtakunnallisista työehtosopimuksista sopivat kunkin alan edustavat työmarkkinajärjestöt. Työehtosopimusten sisältö on täysin avoin niiltä osin kuin lailla ja valtakunnallisella yleisellä työehtosopimuksella ei rajoiteta.
+H2 Muut työmarkkinasopimukset
+H3 13 § - Työnantaja- ja liittokohtaiset työehtosopimukset
+P Yksittäiset työnantajat voivat yksittäisten liittojen kanssa sopia erillisistä työehtosopimuksista tarkentamaan alakohtaisia valtakunnallisia työehtosopimuksia. Näitä sopimuksia pidettäköön normaalisitovina yleissitovuuden sijasta.
+P Normaalisitovat työehtosopimukset ovat vain siten sitovia, kuin valtakunnallisessa yleisessä työehtosopimuksessa voidaan edellyttää.
+H3 14 § - Keskushallinnon virkaehtosopimus
+P Keskushallinnon virkaehtosopimus laaditaan työntekijöitä edustavan keskusliiton ja tasavallan hallitusta ja eduskuntaa edustavan etujärjestön välillä.
+P Keskushallinnon virkaehtosopimuksessa tulee säätää vähintään niistä asioista, joista §:n mukaan säädetään. Lisäksi sopimuksessa tulee säätää palkkataulukoista virkamiehille ja valtakunnallisesta viranhausta.
+H3 15 § - Aluehallinnon virkaehtosopimus
+P Aluehallinnon virkaehtosopimus laaditaan työntekijöitä edustavien työntekijäliittojen ja läänejä edustavan etujärjestön välillä. Sopimuksessa ei tule ylittää keskushallinnon virkaehtosopimuksessa säädettyjä ehtoja, ja sen sisällön on oltava vastaava asiakohdiltaan.
+H2 Voimaantulo
+H3 16 § - Voimaantulo
+P Tämä laki astuu voimaan 1.1.1978.
+.
