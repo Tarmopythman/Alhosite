@@ -62,7 +62,7 @@ fetch('/js/sitemap.json')
             setTimeout(() => {
                 searchInput.value = ''; // Clear the input after a delay
                 renderResults([]); // Clear results when the search bar loses focus
-            }, 100); // Adjust the delay duration as needed (e.g., 200 milliseconds)
+            }, 200); // Adjust the delay duration as needed (e.g., 200 milliseconds)
         });
 
     })
