@@ -42,3 +42,7 @@ if __name__ == "__main__":
 
     # Generate a new sitemap.json
     generate_sitemap(build_folder, root_folder)
+
+    json_file = 'sitemap.json'
+
+    print(f'Site map saved to js/{json_file}')

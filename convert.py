@@ -27,5 +27,8 @@ def main():
 
     process_all_markdown_files(source_directory, build_directory)
 
+    print(f'Markdowns from {source_directory} converted to {build_directory}')
+
 if __name__ == "__main__":
     main()
+
