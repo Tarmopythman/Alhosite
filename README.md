@@ -1,3 +1,7 @@
-# lexwest
+# Official Alhonmaa website WIP
 
-Very hot documentation site for my FICTIONAL legislation.
+Built with Hugo. See license.
+
+## Adding pages
+
+The website is organized into folders.
